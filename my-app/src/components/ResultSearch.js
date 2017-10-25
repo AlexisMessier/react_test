@@ -8,20 +8,12 @@ const testtablestyle = {
   padding: "50px"
 }
 
-const searchbarstyle = {
-  border: "3px solid purple",
-  borderRadius: "5px",
-  boxSizing: "border-box",
-  padding: "20px",
-  width: "100%"
-}
 
-class TestTable extends React.Component {
+class ResultSearch extends React.Component {
   render() {
     return (
       <div style={testtablestyle}>
         <input
-          style={searchbarstyle}
           placeholder="search something">
         </input>
       </div>
@@ -29,4 +21,4 @@ class TestTable extends React.Component {
   }
 }
 
-export default TestTable
+export default ResultSearch
